@@ -1,0 +1,325 @@
+/*
+Theme Name: Custom Template
+Theme URI: https://sajedaiub.com/
+Author: Sajed Ahmed Khan
+Author URI: https://wordpress.org/
+Description: Custom Template by Sajed Ahmed Khan
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: custom
+
+ */
+
+body{
+    background: #F7F7F7;
+    color:#696a6e;
+}
+.header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1030;
+    background-color: #000000;
+}
+#collapsibleNavbar
+{
+	flex-direction:row-reverse;
+}
+#primary {
+    margin-top: 100px;
+}
+.service_section
+{
+    padding:100px 0 20px;
+}
+.service_section h5 {
+    color: #381416;
+    font-weight: 600;
+    text-align: center;
+}
+.service_section a.btn
+{
+    background: #c3121a none repeat scroll 0 0;
+    border-radius: 0;
+    font-size: 21px;
+    font-weight: 600;
+    width: 100%;
+    border: 0px;
+}
+.header_top
+{
+    background: #6c6d71 none repeat scroll 0 0;
+}
+.s_icons
+{
+    margin-left: 0px;
+    font-size: 25px;
+  color: #fff;
+
+}
+
+.menus {
+    background: #F7F7F7 none repeat scroll 0 0;
+    opacity: 0.96;
+    position: sticky;
+    z-index: 9999;
+}
+.navbar-toggler {
+    background-color: #696a6e;
+}
+.navbar-toggler i
+{
+	color:#fff;
+}
+button:focus {
+    outline: 0;
+}
+.navbar-nav {
+
+    display: flex;
+    flex-direction: row;
+
+}
+.footer_section span a{
+    color:#fff;
+}
+.footer_section span a:hover{
+    text-decoration:none;
+}
+.navbar-brand {
+    color: #C51D25;
+    padding-top: 0px;
+
+}
+.navbar-brand span
+{
+    color: #bf453f;
+    font-size: 20px;
+}
+.entry-title
+{
+    color:#C51D25;
+}
+.entry-content p{
+    font-size: 14px;
+}
+ul.nav.navbar-nav li{
+    padding: 0px;
+}
+ul.nav.navbar-nav li.active a
+{
+    color: #C51D25;
+}
+ul.nav.navbar-nav li a
+{
+    color: #696a6e;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.slider
+{
+    position: relative;
+    top: 38px;
+}
+.navigation .navbar{
+    padding:0 1rem;
+}
+.navbar-header
+{
+    background: #E7E7E7;
+
+}
+.review .col-md-4{
+    float: left;
+    color: #fff;
+}
+.review
+{
+    background: #6C6D71;
+}
+.review h1
+{
+    font-size: 49px;
+    padding: 6px;
+
+}
+.review p
+{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+footer
+{
+    background: #27282D;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.footer_section
+{
+    color: #fff;
+    padding: 14px 0px;
+}
+.latest_product
+{
+    margin-bottom: 45px;
+    padding:20px 0px;
+}
+.latest_product h3
+{
+    color:#C51D25;
+    font-weight: 700;
+}
+.latest_product p
+{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 90px;
+
+}
+.image_gallery .col-md-4{
+    display: inline;
+}
+
+
+.divider
+{
+    margin: 40px 0;
+}
+.image_gallery img{
+    padding:30px 0;
+ }
+
+ 
+ @media(min-width: 992px) and (max-width: 1199px){
+  
+  
+	ul.nav.navbar-nav li {
+		padding:0px;
+		 
+	}
+}  
+ @media(min-width: 768px) and (max-width: 991px){
+  
+  
+	ul.nav.navbar-nav li {
+		padding:0px;
+		 
+	}
+} 
+ @media(max-width: 768px) {
+  
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+	}
+	ul.nav.navbar-nav li {
+		padding: 0px;
+		 
+	}
+}
+
+/*-----Social icon color-----*/
+.s_icons i.fa
+{
+  padding: 7px 10px;
+    margin-left: -4px;
+}
+.fa-facebook, .fa-facebook-square {
+    background: #3b5998
+}
+.fa-twitter, .fa-twitter-square {
+    background: #00aced
+}
+.fa-google-plus, .fa-google-plus-square {
+    background: #dd4b39
+}
+.fa-youtube, .fa-youtube-play, .fa-youtube-square {
+    background: #bb0000
+}
+.fa-tumblr, .fa-tumblr-square {
+    background: #32506d
+}
+.fa-vine {
+    background: #00bf8f
+}
+.fa-flickr {
+    background: #ff0084
+}
+.fa-vimeo-square {
+    background: #aad450
+}
+.fa-pinterest, .fa-pinterest-square {
+    background: #cb2027
+}
+.fa-linkedin, .fa-linkedin-square {
+    background: #007bb6
+}
+.fa-instagram {
+    background: #517fa4;
+}
+.fa-spotify {
+    background: #1ED760;
+}
+.fa-skype {
+    background: #00aff0;
+}
+.fa-phone-square {
+    background: #f68121;
+}
+
+
+/*-----End of Social icon color-----*/
+
+.jumbotron {
+    background: #c3121a;
+    color: #FFF;
+    border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+    padding-bottom: 24px; }
+.jumbotron small {
+    color: #FFF;
+}
+.h1 small {
+    font-size: 24px;
+}
+.contact_us
+{
+    background: #6C6D71;
+    color:#fff;
+    padding-bottom: 100px;
+}
+address a{
+    color: #fff;
+}
+address a:hover{
+   text-decoration: none;
+}
+.btn_color
+{
+    background: #c3121a none repeat scroll 0 0;
+    color: #fff;
+}
+
+#primary article{
+    clear: both;
+}
+ul.dropdown-menu.show {
+    width: 190px;
+}
+#menu-main-menu li ul li:hover {
+    background-color: #f8f9fa;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}

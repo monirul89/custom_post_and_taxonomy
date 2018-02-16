@@ -41,3 +41,23 @@ function custom_taxonomy(){
 }
 
 add_action('init','custom_taxonomy');
+
+
+
+
+
+function custom_post_archive($query){
+	if(query->is_archive)
+		$query->set('post_type',array('portfolio', 'nav_menu_item', 'post'));
+	remove_action('pre_get_posts', 'custom_post_archive');
+	
+}
+add_action('pre_get_posts','custom_post_archive');
+
+
+
+
+
+
+
+
